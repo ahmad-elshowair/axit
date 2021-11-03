@@ -1,0 +1,155 @@
+
+
+
+/* For X small Screen */
+@media screen and (max-width: 767px){
+
+    /* Starting style header Section */
+    .header{text-align: center}
+    .header p:first-of-type:after{margin: 5px auto}
+    .header p:first-of-type{font-size: 25px; margin-top: 0; margin-bottom: 5px }
+    .header p:last-of-type{display: none}
+    .header .center-VH{margin-top: 10vh}
+    .header button{margin: 5px 0}
+    .header form h2,
+    .header form input[type= submit]{padding: 10px}
+    /* Ending style header Section */
+
+    /* Starting Style Socail Media Section */
+    .section-social{text-align: center; padding: 5px}
+    .section-social i{font-size: 23px; margin: 15px 14px;}
+    .tabs-section .tab-content h3{margin-top: 25px}
+    .section-social p{margin-top: 5px;}
+    /* Ending Style Socail Media Section */
+
+    /* Starting Style tabs Section */
+    .tabs-section{padding: 50px 0}
+    .tabs-section .tab-switch li{display: inline-block;border-radius: 5px}
+    .tabs-section .tab-content{text-align: center}
+    .tabs-section .tab-content h3::after{margin: 29px auto}
+    /* Ending Style tabs Section */
+
+    /* Starting Style Sub List Section */
+    .subList{padding: 50px 0; text-align: center}
+    .subList .image-subList{margin-top: 20px}
+    .header-border:after{margin: 20px auto}
+    .subList .SubListDescription{margin-bottom: 15px}
+    .subList .list-icon .text-info{width:100%;float: none !important}
+    .fa.pull-left{ text-align: center; float: none !important}
+    .subList .list-icon span{margin: 20px 0 10px}
+    /* Ending Style Sub List Section */
+
+    /* Starting Style Standard Picture Section */
+    .StandardList{padding: 50px 0; text-align: center}
+    .StandardList .head-Standard{margin-top:20px}
+    /* Ending Style Standard Picture Section */
+
+    /* Strating Style Awsome Section  */
+    .AswomeSection{padding: 40px 0}
+    /* Ending Style Awsome Section  */
+
+    /* Strating Style Pricing Section  */
+    .PricingSection{padding: 40px 0}
+    .PricingSection .basic{margin-top: 0}
+    .PricingSection .enterprise,
+    .PricingSection .professional{margin-top: 35px;}
+    /* Ending Style Pricing Section  */
+
+    /* Strating Style Testimonial Section  */
+    .TestimonialSection{padding: 40px 0}
+    .TestimonialSection .customerSaying:after{top: 84px;}
+    .TestimonialSection .media-body .media-heading{top: 138px;}
+    .TestimonialSection .media-body p{top: 159px;}
+    .TestimonialSection .media{margin-bottom: 10px}
+    /* Ending Style Testimonial Section  */
+
+    /*Starting Style Footer Section*/
+    footer i.fa-chevron-up{right: 15px;}
+    /*Ending Style Footer Section*/
+}
+
+
+
+/* for small screen*/ 
+@media screen and (min-width: 768px) and (max-width: 991px){
+    /* Starting style header Section */
+    .header{text-align: center}
+    .header p:first-of-type:after{margin: 8px auto}
+    .header p:first-of-type{font-size: 25px; margin-top: 0 }
+    .header p:last-of-type{display: none}
+    .header .center-VH{margin-top: 11vh}
+    .header button{margin: 10px 0}
+    .header form h2,
+    .header form input[type= submit]{padding: 10px}
+    /* Ending style header Section */
+
+    /* Starting Style Socail Media Section */
+    .section-social{text-align: center; padding: 5px}
+    .section-social p{margin-top: 10px;}
+    /* Ending Style Socail Media Section */
+
+    /* Starting Style tabs Section */
+    .tabs-section{padding: 50px 0}
+    .tabs-section .tab-switch li{display: inline-block;border-radius: 5px}
+    .tabs-section .tab-content{text-align: center}
+    .tabs-section .tab-content h3::after{margin: 29px auto}
+    /* Ending Style tabs Section */
+
+    /* Starting Style Sub List Section */
+    .subList{padding: 50px 0; text-align: center}
+    .subList .image-subList{margin-top: 20px}
+    .header-border:after{margin: 20px auto}
+    .subList .SubListDescription{margin-bottom: 15px}
+    .subList .list-icon .text-info{width:100%;float: none !important}
+    .fa.pull-left{ text-align: center; float: none !important}
+    .subList .list-icon span{margin: 20px 0 10px}
+    /* Ending Style Sub List Section */
+
+    /* Starting Style Standard Picture Section */
+    .StandardList{padding: 50px 0; text-align: center}
+    .StandardList .head-Standard{margin-top:20px}
+    /* Ending Style Standard Picture Section */
+
+    /* Strating Style Pricing Section  */
+    .PricingSection{padding: 40px 0}
+    .PricingSection .basic{margin-top: 0}
+    .PricingSection .enterprise,
+    .PricingSection .professional{margin-top: 35px;}
+    /* Ending Style Pricing Section  */
+
+    /* Strating Style Testimonial Section  */
+    .TestimonialSection{padding: 40px 0}
+    .TestimonialSection .customerSaying::after{top: 84px;}
+    .TestimonialSection .media-body .media-heading{top: 138px;}
+    .TestimonialSection .media-body p{top: 159px;}
+    .TestimonialSection .media{margin-bottom: 10px}
+    /* Ending Style Testimonial Section  */
+
+    /*Starting Style Footer Section*/
+    footer i.fa-chevron-up{right: 50px;}
+    /*Ending Style Footer Section*/
+}
+
+/* FOR MEDIA SCREEN*/
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+    /* Starting Style Header Section */
+    .header .center-VH{margin-top: 15vh}
+    /* Ending Style Header Section */
+
+    /* Starting Style Socail Media Section */
+    .section-social{text-align: center; padding: 5px}
+    .section-social p{margin-top: 10px;}
+    .section-social i{font-size: 23px; margin: 40px 20px;}
+    /* Ending Style Socail Media Section */
+
+    /* Starting Style tabs Section */
+    .tabs-section{padding: 50px 0}
+    .header form{margin-top: 55px;}
+    /* Ending Style tabs Section */
+
+    /* Starting Style Testimonial Section */
+    .TestimonialSection .customerSaying::after{top: 150px;}
+    /* Ending Style Testimonial Section */
+
+}

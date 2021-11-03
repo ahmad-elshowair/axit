@@ -1,0 +1,556 @@
+﻿/* Starting add fonts*/
+@font-face{
+    src: url("fonts/Raleway-Medium.ttf");
+    font-family: Releway-Medium;
+}
+
+@font-face{
+    src: url("fonts/OpenSans-SemiBold.ttf");
+    font-family: OpenSans-SemiBold;
+}
+
+@font-face{
+    src: url("fonts/Raleway-Light.ttf");
+    font-family: Raleway-Light
+}
+
+@font-face{
+    src: url("fonts/Raleway-Regular.ttf");
+    font-family: Raleway-Regular;
+}
+
+/* Ending add fonts*/
+
+ *{box-sizing: border-box;}
+
+
+ /* Starting navbar style*/
+
+ .scrolled{background-color: rgba(15, 14, 14, 0.8) !important;}
+
+ .navbar-inverse{
+    background-color: transparent;
+    border: 0;
+    /* padding: 10px; */
+ }
+.navbar-inverse .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF;
+ }
+ .navbar-inverse .navbar-brand span{color: #ff8b38; }
+
+ .navbar-inverse .navbar-nav > li > a{color: #B2B2B2;}
+ /* Ending navbar style*/
+
+ /* STARTING HEADER STYLE*/
+ .header{
+     background: url(../images/image-header.png);
+     background-attachment: fixed;
+     background-size: cover;
+     height: 100vh;
+     position: relative;
+     overflow: hidden;
+ }
+ .overlay{
+     background: rgba(0, 0, 0, .5);
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     color: #fff;
+ }
+ .header .center-VH{margin-top: 25vh;}
+
+ .header h1 span:first-of-type{font-size: 66px; font-weight: bold; }
+
+ .header h1 span:last-of-type{color: #ff8b38; font-size: 66px;}
+
+ .header p:first-of-type{font-size: 36px;}
+ 
+ .header p:first-of-type:after{
+     content: '';
+     display: block;
+     width: 75px;
+     height: 3px;
+     background-color: #fff;
+     margin-top: 25px;
+     margin-bottom: 25px;
+ }
+
+ .header p:last-of-type{color: #a3a9ad;font-family: 'Raleway', sans-serif;}
+
+ .header button{
+     background-color: transparent;
+     padding: 10px 40px;
+     margin-top: 20px;
+     font-weight: bold
+ }
+ .header button:hover{background-color: #FFF; color: #000}
+
+ .header .btn{border-radius: 0; }
+
+
+ .header form{
+     width: 360px;
+     background-color: #FFF;
+     overflow: hidden;
+     border-radius: 5px;
+ }
+ .header form h2{
+     margin-top: 0;
+     background-color: #f5f5f5;
+     padding: 15px;
+     color: #333333;
+     font-size: 18px;
+     font-weight: bold;
+     margin-bottom: 15px;
+ }
+ .header form h2 span{color: #ff8b38}
+
+ .header form .form-control{
+     border: none;
+     border-radius: 0;
+     box-shadow: none;
+     border-bottom: 1px solid #d6d6d6;
+     margin: 0 auto 20px;
+     width: 80%; 
+ }
+
+.header form input[type= submit]{
+    background-color: #ff8b38;
+    padding: 15px;
+    margin-top: 50px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+ }
+
+ .header form input[type= submit]:hover{
+    background-color: rgba(225, 155, 81, 1);
+    color: #FFF;
+ }
+
+ /* ENDING HEADER STYLE*/
+
+ /* STARTING SOCAIL MEDIA STYLE */
+.section-social{padding: 10px; border-bottom: 2px solid #b1a195;}
+
+.section-social h4{margin-bottom: 2px;font-weight: bold;}
+
+.section-social p{color: #86878b;}
+
+.section-social i{
+     color: #CCC;
+     margin: 20px 20px;
+     transition: all 0.5s ease-in-out;
+}
+
+.section-social .fa-facebook:hover{color: #3b5998;}
+
+.section-social .fa-twitter:hover{color: #1da1f2;}
+
+.section-social .fa-google-plus:hover{color: #dd4b39;}
+
+.section-social .fa-pinterest:hover{color: #bd081c;}
+
+.section-social .fa-instagram:hover{color: #0d1a2b;}
+
+.section-social .fa-stumbleupon:hover{color: #eb4924;}
+
+.section-social .fa-rss:hover{color: #f26522;}
+ /* ENDING SOCAIL MEDIA STYLE */
+
+ /* Starting section tabs style */
+.tabs-section{padding: 145px 0; background-color: #f5f5f5;}
+
+.tabs-section .tab-switch li{
+    width: 112px;
+    height: 112px;
+    line-height: 110px;
+    background-color: #000000;
+    color: #FFF;
+    border-bottom: 1px solid #c7c7c7;
+    /* font-family: OpenSans; */
+    font-weight: bold;
+    cursor: pointer;
+}
+.tabs-section .tab-switch li.active{background-color: #ff8b38;}
+
+.tabs-section .tab-switch li:hover{background-color:rgba(51, 51, 51, 1)}
+
+.tabs-section .tab-switch li:first-of-type{border-top-right-radius: 3px}
+
+.tabs-section .tab-switch li:first-of-type{border-top-left-radius: 3px}
+
+.tabs-section .tab-switch li:last-of-type{border-bottom-left-radius: 3px;}
+
+.tabs-section .tab-switch li:last-of-type{border-bottom-right-radius: 3px;}
+
+.tabs-section .tab-content h3 {
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.tabs-section .tab-content h3::after{
+    content: ' ';
+    display: block;
+    width: 11%;
+    height: 2px;
+    background-color: #ff8b38;
+    margin-bottom: 29px;
+    margin-top: 29px;
+
+}
+
+.tabs-section .tab-content p{
+    color: #86878b;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 35px;
+}
+
+.tabs-section .tab-content button{color: #FFF; background-color: #ff8b38;}
+
+.tabs-section .tab-content button:hover{ background-color: rgba(225, 155, 81, 1)}
+
+.tabs-section .tab-content .tab-two p span,
+.tabs-section .tab-content .tab-three span
+{display:block; margin-top: 20px;}
+
+.tabs-section .tab-content div:not(.tab-one){display: none;}
+
+/* Ending section tabs style */
+
+/* Starting sub list section style */
+.subList{padding: 80px 0;background-color: #FFF}
+
+.subList .image-subList{margin-top: 50px}
+
+.subList .head-sub-list{font-weight: 700;font-size: 20px;}
+
+.subList .list-icon span{
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    border: 2px solid #ff8b38;
+    color: #ff8b38;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 40px;
+    margin-top: 10px
+}
+
+.subList .SubListDescription{
+    color: #868DA9;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.subList .list-icon .text-info{width: calc(100% - 90px);}
+.subList .list-icon .text-info h4{color: #000;}
+/* Ending sub list section style */
+
+/* Starting Standard Picture Section Stye*/
+.StandardList{
+    padding: 100px 0;
+    background-color: #F5F5F5;
+}
+
+.StandardList .StandardDescription{
+    color: #868DA9;
+    line-height: 1.6;
+    margin-bottom: 20px
+}
+
+.StandardList .head-Standard{margin-top: 50px;}
+
+/* Ending Standard Picture Section Stye*/
+
+
+/* Starting Awsome Section Style*/
+
+.AswomeSection{padding: 80px 0;}
+
+.AswomeSection span{
+    color: #868DA9;
+    margin-bottom: 50px;
+    font-size: 16px;
+    display: block;
+}
+
+.AswomeSection .AswomeHead{ font-family: Raleway-Regular; display:inline-block}
+
+.AswomeSection .icon{
+    width:70px;
+    height: 70px;
+    line-height: 68px;
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+}
+.AswomeSection .AwsomeDescrip{
+    color: #868DA9;
+    margin-top: 30px;
+    font-size: 16px
+}
+
+/* Ending Awsome Section Style*/
+
+/* Starting Pricing Section Style*/
+.PricingSection{padding: 80px 0;background-color: #F5F5F5;}
+
+.PricingSection h2.bold{font-family: Raleway-Regular;}
+
+.PricingSection .PricingDescrip{
+    font-size: 16px;
+    color: #86878b;
+    margin-bottom: 50px
+}
+
+.PricingSection .price-box{
+    background-color: #333333;
+    color: #FFF;
+    font-weight: bold;
+    padding: 20px 0;
+    border-bottom: 5px solid #ff8b38;  
+}
+.PricingSection .price-box h3{
+    margin-top: 0;
+    border-bottom: .01em solid #986c6c;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.PricingSection .price-box .Price{font-size: 60px;display: block;}
+
+.PricingSection .price-box .UsdSign{font-size: 30px;}
+
+.PricingSection .price-box .period{
+    display: block;
+    font-size: 15px;
+    color:#999999;
+    font-style: italic;
+}
+
+.PricingSection .professional span.text-uppercase{
+    background-color: #ff8b38;
+    display: block;
+    font-weight: bold;
+    color: #FFF;
+    padding: 5px 0 10px;
+}
+.PricingSection .Confguration{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 0px #d6c9c6;
+}
+.PricingSection .Confguration li{
+    padding: 10px 0;
+    border-bottom: 1px solid #f5f5f5;
+    color: #acadaf;
+    transition: all ease-in-out 0.5s
+}
+
+.PricingSection .Confguration li:hover{background-color: rgb(224, 200, 200)}
+
+.PricingSection .basic,
+.PricingSection .enterprise{margin-top: 35px}
+/* Ending Pricing Section Style*/
+
+
+/* Starting Testemonial Section Style*/
+.TestimonialSection{padding: 80px 0;background-color: #FFF;}
+
+.TestimonialSection h2.h1{font-family: Raleway-Regular;}
+
+.TestimonialSection .TestimonialDescription{
+    font-size: 16px;
+    color: #86878b;
+    margin-bottom: 50px 
+}
+
+.TestimonialSection .customerSaying{
+    font-size: 16px;
+    color: #86878b;
+    background-color: #F5f5f5;
+    padding: 20px 15px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.TestimonialSection .customerSaying::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #F5F5F5 transparent transparent;
+    position: absolute;
+    top: 128px;
+    left: 15px;
+}
+.TestimonialSection .media-body .media-heading{
+    position: absolute;
+    left: 105px;
+    top: 175px;
+    font-weight: bold;
+}
+
+.TestimonialSection .media-body p{
+    position: absolute;
+    left: 105px;
+    top: 195px;
+    color: #86878B;
+    font-family: OpenSans-SemiBold;
+}
+
+/* Ending Testimonial Section Style*/
+
+/* Starting Stylish Section Style*/
+.StylishSection{
+    background: url(../images/stylishBackground.png) no-repeat;
+     background-size: cover;
+     min-height: 300px;
+     position: relative;
+     color: #FFF;
+ }
+ .StylishSection .overlay{
+     background: rgba(0, 0, 0, .5);
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     color: #fff;
+     
+ }
+
+ .StylishSection h2.h1{font-family: Raleway-Light; margin-top: 50px }
+.StylishSection .overlay p{
+    font-family: Raleway-Light;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+ .StylishSection button{
+     border-style: solid;
+    background-color: transparent;
+    padding: 10px 40px;
+    margin-top: 20px;
+    font-family: OpenSans-SemiBold;
+ }
+ .StylishSection button:hover{background-color: #FFF;color: #000;}
+
+ .StylishSection .header-center-border:after{background-color:#fff;}
+/* Ending Stylish Section Style*/
+
+
+/* Starting Contact Section Style*/
+.ContactSection{padding: 80px 0;background-color: #FFF;}
+
+.ContactSection h2.h1{font-family: Raleway-Light}
+
+.ContactSection p.text-description{margin-bottom: 50px}
+
+
+
+.ContactSection form{margin-bottom: 20px;}
+
+.ContactSection input[type=text],
+.ContactSection input[type=email],
+.ContactSection textarea{
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #EEE;
+    border-radius: 0;
+    margin-bottom: 15px
+}
+
+.ContactSection textarea{height:168px;}
+
+.ContactSection button{
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: #FFF;
+    background-color: #ff8b38;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ContactSection button:hover{background-color:rgba(225, 155, 81, 1)}
+/* Ending Contact Section Style*/
+
+/* Starting Footer section Style*/
+footer{
+    padding: 20px;
+    background-color: black;
+    position: relative;
+}
+footer .fa:hover{cursor: pointer}
+
+footer .fa-facebook:hover{color: #3b5998;}
+
+footer .fa-twitter:hover{color: #1da1f2;}
+
+footer .fa-google-plus:hover{color: #dd4b39;}
+
+footer .fa-pinterest:hover{color: #bd081c;}
+
+footer .fa-instagram:hover{color: #0d1a2b;}
+
+footer .fa-stumbleupon:hover{color: #eb4924;}
+
+footer .fa-rss:hover{color: #f26522;}
+
+footer span:first-of-type{
+    color:#ffffff7f;
+    display: inline-block;
+    margin-top: 10px; 
+    cursor: pointer 
+}
+
+footer span:first-of-type:hover{color: #FFF;}
+
+footer i.fa-chevron-up{
+    background-color: #ff8b38;
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+    top: -25px;
+    right: 120px;
+    color: #FFF;
+    font-size: 20px;
+}
+footer i.fa-chevron-up:hover{background-color:rgba(225, 155, 81, 1)}
+/* Ending Footer section Style*/
+/* starting my framwork */
+.header-border:after{
+    content: ' ';
+    display: block;
+    width: 12%;
+    height: 2px; 
+    background-color: #ff8b38;
+    margin: 20px 0;
+}
+
+.header-center-border:after{
+    content: ' ';
+    display: block;
+    width: 50%;
+    height: 2px; 
+    background-color: #ff8b38;
+    margin: 20px auto;
+}
+.bold{font-weight: bold}
+
+.text-description{
+    font-family: Raleway-Regular;
+    font-size: 16px;
+    color: #868da9;
+}
+/* ending my framwork */
+
+
